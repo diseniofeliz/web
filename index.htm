@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<html class="no-ie" lang="es">
+<head>
+	<meta http-equiv="content-type" content="text/html; charset=UTF-8">
+	<meta name="author" content="Diseño Feliz">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+	<meta name="description" content="Calidad en el diseño">
+	<meta name="keywords" content="diseño, imagen">
+	<script type="text/javascript" async="" src="img/analytics.js"></script>
+
+	<!-- <script type="text/javascript">
+		// decrypt helper function
+		function decryptCharcode(n,start,end,offset) {
+			n = n + offset;
+			if (offset > 0 && n > end) {
+				n = start + (n - end - 1);
+			} else if (offset < 0 && n < start) {
+				n = end - (start - n - 1);
+			}
+				return String.fromCharCode(n);
+			}
+		// decrypt string
+		function decryptString(enc,offset) {
+			var dec = "";
+			var len = enc.length;
+			for(var i=0; i < len; i++) {
+				var n = enc.charCodeAt(i);
+				if (n >= 0x2B && n <= 0x3A) {
+					dec += decryptCharcode(n,0x2B,0x3A,offset);	// 0-9 . , - + / :
+				} else if (n >= 0x40 && n <= 0x5A) {
+					dec += decryptCharcode(n,0x40,0x5A,offset);	// A-Z @
+				} else if (n >= 0x61 && n <= 0x7A) {
+					dec += decryptCharcode(n,0x61,0x7A,offset);	// a-z
+				} else {
+					dec += enc.charAt(i);
+				}
+			}
+			return dec;
+		}
+		// decrypt spam-protected emails
+		function linkTo_UnCryptMailto(s) {
+			location.href = decryptString(s,-2);
+		}
+	</script> -->
+
+	<title>Diseño Feliz</title>
+	<link rel="icon" href="img/logo.png" type="image/x-icon; charset=binary">
+	<!-- <link rel="canonical" href="https://www.linzer-tattooatelier.at/"> -->
+	<meta property="og:title" content="Diseño Feliz">
+	<meta property="og:type" content="website">
+	<meta property="og:image" content="img/logo.png">
+	<meta property="og:image:type" content="image/jpeg">
+	<meta property="og:image:width" content="1200">
+	<meta property="og:image:height" content="630">
+	<!-- <meta property="og:url" content="https://www.linzer-tattooatelier.at/"> -->
+	<meta property="og:site_name" content="Diseño Feliz">
+	<meta property="og:description" content="Es una pagina de Daniela Figurniak.">
+	<meta property="og:locale" content="es_ES">
+	<link rel="stylesheet" href="css/main.css" type="text/css">
+	<link rel="stylesheet" href="css/css.css" media="all" type="text/css">
+	<script type="text/javascript" src="js/jquery.js"></script>
+	<script type="text/javascript" src="js/main.js"></script>
+	<script type="text/javascript" src="js/fancybox.js"></script>
+	<script type="text/javascript" src="js/cookies.js"></script>
+</head>
+
+<body id="p1" >
+	<!-- <div class="parallax-mirror" style="visibility: visible; z-index: -100; position: fixed; top: 0px; left: 0px; overflow: hidden; transform: translate3d(0px, 0px, 0px); height: 756px; width: 1349px;">
+		<img class="parallax-slider" src="img/csm_0CH13964-HDR_0c846e0763.jpg" style="transform: translate3d(0px, -115px, 0px); position: absolute; height: 899px; width: 1349px; max-width: none;">
+	</div> -->
+	<svg xmlns="http://www.w3.org/2000/svg" style="display:none">
+		<symbol viewBox="0 0 24 14" id="icon-burger-nav">
+			<g><path d="M23.25 6.25H.75a.75.75 0 0 0 0 1.5h22.5a.75.75 0 0 0 0-1.5zM.75 1.75h22.5a.75.75 0 0 0 0-1.5H.75a.75.75 0 0 0 0 1.5zM23.25 12.25H.75a.75.75 0 0 0 0 1.5h22.5a.75.75 0 0 0 0-1.5z"/></g>
+		</symbol>
+		<symbol viewBox="0 0 200 120" id="icon-logo">
+			<g>
+	   		<image xlink:href="data:image/png;base64,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" id="svg_4" height="41" width="237"/>
+	   		<image xlink:href="data:image/png;base64,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" id="svg_5" height="25" width="191.99999" y="46" x="20"/>
+	  	</g>
+	 	</symbol>
+		<symbol viewBox="0 0 35 19" id="icon-menu">
+			<g><path d="M9.16 4.28c-.027.013-.053.047-.08.1a484.513 484.513 0 0 0-.62 1.32c-.147.307-.293.617-.44.93-.147.313-.307.623-.48.93-.267.48-.567.94-.9 1.38-.107.12-.22.23-.34.33-.12.1-.24.203-.36.31-.013.027-.047.053-.1.08-.107.053-.18.07-.22.05-.04-.02-.073-.083-.1-.19 0-.067-.02-.1-.06-.1a.406.406 0 0 1-.25-.2 1.343 1.343 0 0 0-.17-.26 9.028 9.028 0 0 1-.61-.94l-.55-.98a9.492 9.492 0 0 1-.23-.45 25.508 25.508 0 0 1-.21-.45.251.251 0 0 1-.06-.1.251.251 0 0 0-.06-.1c-.04 0-.06.02-.06.06.013.187.013.367 0 .54l-.04.54-.04 1.4c-.013.467-.033.933-.06 1.4-.013.187-.023.373-.03.56-.007.187-.003.373.01.56a6.656 6.656 0 0 1-.04 1.26c-.027.187-.043.38-.05.58-.007.2-.017.393-.03.58-.027.253-.043.5-.05.74-.007.24.003.487.03.74.027.147.043.3.05.46.007.16.017.313.03.46 0 .04.013.1.04.18 0 .027.007.05.02.07.013.02.007.037-.02.05-.053.053-.077.107-.07.16.007.053.01.107.01.16a.743.743 0 0 1-.4.58.505.505 0 0 1-.12.06.251.251 0 0 0-.1.06.408.408 0 0 1-.19.12.318.318 0 0 1-.19-.02 8.095 8.095 0 0 1-.43-.13 1.334 1.334 0 0 1-.41-.23.694.694 0 0 1-.22-.54v-1.05c0-.353-.007-.703-.02-1.05a2.425 2.425 0 0 1 0-.44c.013-.147.02-.293.02-.44a13.786 13.786 0 0 1 0-1.05c.013-.353.013-.703 0-1.05V9.38L1 8.27c.013-.367.033-.737.06-1.11a5.45 5.45 0 0 0-.01-.99 5.45 5.45 0 0 1-.01-.99c.027-.24.05-.477.07-.71.02-.233.05-.47.09-.71l.08-.4a.474.474 0 0 0 .04-.17v-.15c0-.12.017-.203.05-.25.033-.047.103-.09.21-.13.08-.027.193-.04.34-.04h.34c.027-.013.047-.017.06-.01.013.007.027.01.04.01.4-.093.74.02 1.02.34.187.2.36.41.52.63.16.22.293.457.4.71.12.28.237.563.35.85.113.287.243.563.39.83a10.038 10.038 0 0 1 .52.92l.3.6c.067.12.127.12.18 0l.48-.92c.16-.307.313-.613.46-.92.2-.427.403-.843.61-1.25.207-.407.443-.803.71-1.19l.24-.36c.04-.093.1-.147.18-.16a4.8 4.8 0 0 1 .33-.07.784.784 0 0 1 .33.01c.12 0 .207.027.26.08.16.107.29.233.39.38.1.147.157.327.17.54.027.253.037.507.03.76-.007.253-.01.513-.01.78V6.8a30.822 30.822 0 0 0 .04 1.58c.013.2 0 .433-.04.7a1.027 1.027 0 0 0-.02.34c.013.12.017.24.01.36-.007.12-.017.233-.03.34a5.233 5.233 0 0 0-.01.56c.007.187.003.373-.01.56v.27c0 .087-.007.183-.02.29v.57a8 8 0 0 1-.02.57v.74c-.027.467-.04.937-.04 1.41 0 .473-.02.943-.06 1.41a.51.51 0 0 1-.03.18.51.51 0 0 0-.03.18c-.013.067-.067.113-.16.14-.173 0-.3-.033-.38-.1l-.32-.3a.545.545 0 0 1-.14-.24 1.088 1.088 0 0 1-.04-.3c0-.253.007-.503.02-.75.013-.247.013-.49 0-.73a3.662 3.662 0 0 1 .01-.81 4.73 4.73 0 0 0 .03-.81c-.013-.427-.003-.853.03-1.28.033-.427.05-.853.05-1.28l.08-1.52v-.66c0-.213.007-.433.02-.66a7.444 7.444 0 0 1 .08-1.1c.027-.147.037-.3.03-.46a9.416 9.416 0 0 0-.03-.46A13.589 13.589 0 0 1 9.2 4.5c.027-.107.013-.18-.04-.22zM14.2 8.24c.213-.027.42-.057.62-.09.2-.033.407-.063.62-.09.187-.027.377-.043.57-.05.193-.007.383-.017.57-.03.12-.013.217.04.29.16.073.12.09.24.05.36 0 .027-.027.053-.08.08a7.71 7.71 0 0 0-.17.07.867.867 0 0 1-.17.05c-.187.067-.37.14-.55.22-.18.08-.363.153-.55.22l-.28.06a6.489 6.489 0 0 0-.72.04h-.1c-.147.013-.22.093-.22.24l-.06.94c0 .107-.007.21-.02.31-.013.1-.02.203-.02.31 0 .347-.02.667-.06.96-.013.2-.017.4-.01.6.007.2.017.4.03.6a6.863 6.863 0 0 1-.04.76c0 .187.007.37.02.55.013.18.02.363.02.55 0 .16-.007.317-.02.47-.013.153-.04.303-.08.45a.474.474 0 0 0-.04.17v.15c-.013.12.033.167.14.14l.56-.12c.267-.067.527-.133.78-.2s.513-.127.78-.18c.107-.027.21-.04.31-.04s.203-.007.31-.02c.12-.013.24-.02.36-.02s.24-.013.36-.04a.354.354 0 0 1 .36.13.41.41 0 0 1 .08.39.272.272 0 0 1-.15.17.508.508 0 0 1-.21.05c-.16.013-.32.03-.48.05-.16.02-.32.05-.48.09-.213.04-.423.087-.63.14-.207.053-.417.113-.63.18-.267.08-.53.16-.79.24-.26.08-.523.153-.79.22a.889.889 0 0 0-.28.12 1.956 1.956 0 0 1-.94.28.355.355 0 0 1-.13-.02.613.613 0 0 1-.11-.06 1.08 1.08 0 0 1-.36-.45 1.838 1.838 0 0 1-.12-.57 4.925 4.925 0 0 1-.01-.54 17.03 17.03 0 0 0-.02-1.56c-.02-.333-.037-.673-.05-1.02a28.514 28.514 0 0 0-.06-1.05 6.9 6.9 0 0 1 0-1.05c.027-.467.037-.94.03-1.42-.007-.48.003-.953.03-1.42l.1-1.88c.027-.24.047-.48.06-.72l.04-.72.14-1.44c.027-.147.033-.283.02-.41a1.29 1.29 0 0 1 .02-.39.185.185 0 0 0 0-.12.378.378 0 0 1-.02-.12c-.04-.173.02-.273.18-.3.173-.013.343-.023.51-.03a.889.889 0 0 1 .49.13.49.49 0 0 0 .21.07c.073.007.15.023.23.05.187.027.377.047.57.06l.57.04.6.04c.2.013.407.013.62 0h.84c.173.013.34.08.5.2.093.053.127.147.1.28 0 .053-.027.08-.08.08-.173.04-.343.077-.51.11a9.705 9.705 0 0 1-.53.09 6.686 6.686 0 0 1-.89.02 9.903 9.903 0 0 0-.89 0c-.16 0-.24.08-.24.24.013.12.017.24.01.36-.007.12-.01.24-.01.36.027.173.02.333-.02.48a.702.702 0 0 0-.02.2c.027.333.03.663.01.99a49.8 49.8 0 0 0-.05.97c-.013.12-.03.24-.05.36-.02.12-.023.24-.01.36 0 .067.013.12.04.16zM24.32 13.88c.027-.027.04-.067.04-.12V9.45a1.4 1.4 0 0 0-.02-.23.216.216 0 0 1 0-.13.216.216 0 0 0 0-.13c0-.227.007-.457.02-.69a3.96 3.96 0 0 0-.02-.69 2.401 2.401 0 0 1-.04-.43c0-.14.007-.283.02-.43v-.78c0-.16.007-.323.02-.49l.04-.49c.04-.16.047-.333.02-.52a2.053 2.053 0 0 1-.02-.49c.013-.153.033-.31.06-.47v-.14c-.04-.253-.04-.5 0-.74s.073-.48.1-.72c.013-.107.033-.17.06-.19.027-.02.093-.03.2-.03h.1c.093 0 .15.007.17.02.02.013.043.06.07.14.027 0 .047-.013.06-.04.013-.027.033-.04.06-.04.027.027.027.073 0 .14a.246.246 0 0 1-.02.09c-.013.033.013.057.08.07.027 0 .037.007.03.02a.089.089 0 0 0-.01.04c-.013.28-.013.56 0 .84.013.28.033.56.06.84 0 .2-.007.4-.02.6l-.04.6c-.013.187-.02.373-.02.56v.56c0 .187.003.37.01.55.007.18-.003.363-.03.55a.113.113 0 0 0-.01.08c.007.027.01.053.01.08.04.267.06.52.06.76l.06 3.48c.013.24.017.48.01.72-.007.24-.01.48-.01.72a2.542 2.542 0 0 0 .04.44c.027.2.03.403.01.61-.02.207-.017.41.01.61.013.16.03.323.05.49.02.167.037.33.05.49.013.24.047.477.1.71.053.233.087.47.1.71.027.173.02.34-.02.5a1.022 1.022 0 0 0-.36-.09 1.022 1.022 0 0 1-.36-.09 1.219 1.219 0 0 1-.5-.38 3.553 3.553 0 0 1-.56-.96 35.732 35.732 0 0 1-1.16-2.76c-.147-.387-.287-.77-.42-1.15-.133-.38-.26-.763-.38-1.15-.12-.347-.237-.693-.35-1.04-.113-.347-.23-.693-.35-1.04-.093-.267-.19-.52-.29-.76a7.81 7.81 0 0 1-.27-.76 3.908 3.908 0 0 1-.04-.18.47.47 0 0 0-.1-.2v.66l.06.78.16 1.12a.666.666 0 0 1-.02.28c0 .04.003.073.01.1.007.027.01.053.01.08.053.16.083.317.09.47.007.153.017.31.03.47.013.2.01.4-.01.6-.02.2-.037.407-.05.62 0 .36.02.727.06 1.1.027.227.04.46.04.7v.72l-.08 1.78c-.027.48-.193.873-.5 1.18a.532.532 0 0 1-.32.12.722.722 0 0 0-.42.16.347.347 0 0 1-.11.07.172.172 0 0 1-.15-.01 1.185 1.185 0 0 0-.26-.13.852.852 0 0 1-.26-.15.541.541 0 0 1-.22-.38 3.885 3.885 0 0 1-.05-.47 9.556 9.556 0 0 0-.03-.45c0-.32-.02-.64-.06-.96a1.4 1.4 0 0 1-.02-.23v-.21l-.12-1.56a22.378 22.378 0 0 1-.05-1.14 62.788 62.788 0 0 0-.03-1.12 14.173 14.173 0 0 1-.05-.92 8.544 8.544 0 0 0-.07-.92 1.316 1.316 0 0 1-.03-.36c.007-.12.01-.247.01-.38 0-.453-.02-.92-.06-1.4a6.42 6.42 0 0 1-.03-.8 6.42 6.42 0 0 0-.03-.8c0-.08.003-.16.01-.24.007-.08.01-.167.01-.26.013-.293.007-.58-.02-.86a6.128 6.128 0 0 1-.02-.86v-.19a.97.97 0 0 1 .02-.19c.027-.16.093-.253.2-.28l.38-.12c.067-.027.173-.027.32 0 .147.053.297.103.45.15.153.047.29.13.41.25.067.067.153.1.26.1.107 0 .177.013.21.04.033.027.063.087.09.18.04.107.09.21.15.31s.123.203.19.31c.267.427.44.88.52 1.36.067.387.147.76.24 1.12.093.36.213.72.36 1.08.053.107.09.22.11.34.02.12.043.24.07.36.08.253.17.497.27.73.1.233.197.47.29.71.053.12.1.247.14.38l.12.4c.107.373.247.76.42 1.16.16.36.317.717.47 1.07.153.353.317.703.49 1.05.04.067.073.107.1.12zM32.8 10.46c.013-.093.02-.18.02-.26v-.26c.013-.187.033-.373.06-.56.027-.187.04-.373.04-.56.013-.773.03-1.557.05-2.35.02-.793.07-1.577.15-2.35a2.716 2.716 0 0 0 .04-.8c0-.093.003-.187.01-.28.007-.093.01-.187.01-.28.013-.12.073-.167.18-.14.373.027.613.233.72.62.067.2.1.4.1.6a5 5 0 0 1-.04.62 3.25 3.25 0 0 0 0 .72c0 .107-.003.213-.01.32-.007.107-.01.213-.01.32l-.04.75a14.79 14.79 0 0 1-.06.75c-.013.12-.017.243-.01.37.007.127.01.25.01.37-.013.2-.023.397-.03.59-.007.193-.023.39-.05.59-.027.147-.04.29-.04.43s-.007.283-.02.43a9.693 9.693 0 0 0-.05.76 9.693 9.693 0 0 1-.05.76c-.067.413-.123.823-.17 1.23-.047.407-.117.817-.21 1.23-.053.32-.133.647-.24.98-.133.36-.297.717-.49 1.07a3.391 3.391 0 0 1-.7.9 2.64 2.64 0 0 1-.96.55c-.367.12-.777.127-1.23.02a3.339 3.339 0 0 1-1.17-.52 2.61 2.61 0 0 1-.85-.96 5.565 5.565 0 0 1-.5-1.25c-.12-.447-.213-.89-.28-1.33a25.812 25.812 0 0 1-.21-2.46 36.69 36.69 0 0 1-.01-2.57c.027-.86.073-1.713.14-2.56.067-.847.153-1.663.26-2.45.013-.147.033-.283.06-.41l.08-.39a.543.543 0 0 1 .28-.32c.2-.08.413-.107.64-.08a.845.845 0 0 1 .4.16c.187.107.343.227.47.36a.914.914 0 0 1 .23.54 3.5 3.5 0 0 1 .06.35.662.662 0 0 1-.06.35.246.246 0 0 0-.01.12c.007.04.003.08-.01.12 0 .253-.02.5-.06.74-.013.013-.02.04-.02.08.013.133.01.263-.01.39a1.52 1.52 0 0 0-.01.39v.19c0 .06-.013.123-.04.19-.027.16-.03.317-.01.47.02.153.017.31-.01.47a.35.35 0 0 0-.01.22c.02.08.03.16.03.24a17.122 17.122 0 0 1-.04 1.18c-.027.307-.04.613-.04.92 0 .307.007.613.02.92 0 .147.007.297.02.45l.04.45v.62a15.406 15.406 0 0 0 .08 2.2l.08.52c.053.32.157.62.31.9s.337.48.55.6c.213.12.447.137.7.05.253-.087.513-.33.78-.73.133-.213.253-.453.36-.72.107-.267.193-.527.26-.78s.117-.483.15-.69c.033-.207.057-.363.07-.47.067-.44.127-.877.18-1.31.053-.433.093-.877.12-1.33zM30.62 1.48a.575.575 0 0 1-.14.42c-.107.133-.233.193-.38.18a.732.732 0 0 1-.41-.18.483.483 0 0 1-.19-.38c0-.147.06-.29.18-.43s.253-.21.4-.21c.12 0 .237.063.35.19a.704.704 0 0 1 .19.41zM32.2 1.48a.575.575 0 0 1-.14.42c-.107.133-.233.193-.38.18a.732.732 0 0 1-.41-.18.483.483 0 0 1-.19-.38c0-.147.06-.29.18-.43s.253-.21.4-.21c.12 0 .237.063.35.19a.704.704 0 0 1 .19.41z">
+			</path></g>
+		</symbol>
+		<!-- <symbol viewBox="0 0 358.72 75.41" id="icon-pixelatelier">
+			<path d="M38.68 13.13a.4.4 0 0 1-.31-.64c1.46-2.87 2.53-4.85 3-5.53a1.89 1.89 0 0 0 .33-1.09C41.7 3.36 37.45 0 34.88 0A1.71 1.71 0 0 0 33 1.44a114.67 114.67 0 0 1-4.81 11.23.65.65 0 0 1-.55.42C15.16 14.95 0 22.5 0 32.34c0 4.28 3 11 7.58 11 1.56 0 1.65-.82 1.65-1.32 0-1.24-2.72-1.4-2.72-3.87 0-4.46 7.65-14.68 17.7-18.37a.67.67 0 0 1 .25 0 .26.26 0 0 1 .27.29.65.65 0 0 1-.07.26C17 36.63 6.48 58.05 4.45 62.16a3.28 3.28 0 0 0-.34 1.46c0 2.91 3.74 5.8 6.24 5.8a2 2 0 0 0 2-1.32c.88-2.46 3.36-8.08 6.51-15a.45.45 0 0 1 .39-.31.62.62 0 0 1 .26.06 11.5 11.5 0 0 0 4.61.8c11.29 0 28.92-11 28.92-24.39.02-6.45-4.04-14.14-14.36-16.13zm-16 33.23h-.15c-.21 0-.34-.11-.34-.29a.6.6 0 0 1 .06-.26c4.33-9.27 9.23-19.5 13-27.17a.52.52 0 0 1 .57-.28c6.54.4 9.41 3.66 9.41 7.84.03 7.39-8.94 17.66-22.54 20.16zM66.63 21.46c4.37 0 15.16-5 15.16-7.74 0-2.23-2.88-5.36-4.28-5.36a1.43 1.43 0 0 0-1.15.41C73.13 12 66.13 16 63.82 16.93a1.46 1.46 0 0 0-1.07 1.24c0 1.23 1.9 3.29 3.88 3.29zM145 70.22a.7.7 0 0 0-.38.11 4.14 4.14 0 0 1-2.16.76c-2.52 0-3.33-4-3.33-8.22a32.06 32.06 0 0 1 1.2-9.11 2.06 2.06 0 0 1 .66-1C151 44.12 170 17.59 170 7.53a6.41 6.41 0 0 0-6.1-6.59c-8.39 0-22.17 22.34-28.95 41.25a101.16 101.16 0 0 1-7.1 10.33c-5 6.34-10.88 10.14-14.58 10.14-3 0-3.79-2.31-3.79-4.61a23 23 0 0 1 1.4-6.92.41.41 0 0 1 .46-.33 16.45 16.45 0 0 0 2.62.28c8.37 0 18.04-8.77 18.04-17.08 0-5.45-5.22-8.85-9.31-8.85-7.07 0-15 10-19.21 20-4.3 7.12-10.34 16.3-13.38 16.3-2.22 0-4-5.22-4.45-10.66a2.55 2.55 0 0 1 0-.31.69.69 0 0 1 .17-.48c6.26-7 14.34-14.42 20.93-20.68a1.14 1.14 0 0 0 .34-.86c0-1.61-2.06-3.58-3.39-3.58-2 0-8.07 7.33-18.13 19.2a.56.56 0 0 1-.38.2c-.16 0-.27-.15-.27-.45a66.57 66.57 0 0 1 1.4-14.67 4.42 4.42 0 0 0 .12-1c0-1.58-1.12-2.24-2.56-2.24-2.42 0-5.76 1.85-6.29 4.27-1.52 3.23-2.81 5.79-3.93 7.91l-.07.08C72.06 40.82 60.12 61.67 57 61.67c-.58 0-.82-.5-.82-1.24 0-5.27 11-25.21 13.18-27.77a2.32 2.32 0 0 0 .58-1.57c0-2.14-4.2-5.36-6.76-5.36a1.85 1.85 0 0 0-1.73 1c-.82 1.65-7.09 13.76-11.29 23.4-2.06 4.7-3 8.24-3 11.29 0 4.37 2.72 7.91 6.26 7.91 6.05 0 14.52-13.52 19.48-22.34a.53.53 0 0 0 .17-.15c.53-.86 1.31-2.16 2.44-4.11.11-.2.24-.29.35-.29s.22.14.22.41a80.66 80.66 0 0 0 .78 10.49c.08.42 0 .59-.16.75-7.5 8.49-13.43 14.75-13.76 15.24a1.7 1.7 0 0 0-.37 1.06c0 1.49 1.85 3.07 3.48 3.07a2 2 0 0 0 1.75-.92c.41-.66 4.28-6.26 9.89-13.18a.45.45 0 0 1 .34-.21.34.34 0 0 1 .32.29C80 65 83.06 69.33 87.1 69.33c4.44 0 9.32-5.44 13.47-11.61 0 7.12 4.43 11.6 10.38 11.6 7.87 0 15.46-7.38 20.52-14.61a33 33 0 0 0-.54 5.55c0 10.58 6.82 15.14 11.39 15.14 2.3 0 4-1.15 4-3.28.02-1.12-.71-1.9-1.32-1.9zm-1.45-26.76C150.3 26.49 161.83 7 165 7c.41 0 .66.41.66 1 0 4.45-10.88 23.57-21.18 35.76a1.1 1.1 0 0 1-.76.5c-.17 0-.29-.13-.28-.36a1.26 1.26 0 0 1 .1-.44zm-30.37 2.14c3.71-7.41 9.06-14.34 11.95-14.34.63 0 .9.44.9 1.17 0 3.59-6.75 14.24-12 14.24-.76 0-1-.28-1-.58a1.18 1.18 0 0 1 .15-.49z">
+			</path>
+			<path d="M180.6 68.67c-1.23-.34-1.74-1.5-1.74-3.23 0-8 11.12-28 14.1-32.37a4 4 0 0 0 .7-2.24c0-3-3.25-5.83-5.58-5.83a2 2 0 0 0-1.88 1.07l-2.14 4a.34.34 0 0 1-.66 0c-1.73-2.47-5.36-4.86-8.73-4.86-10.61 0-22.91 22.54-22.91 35.14 0 5.32 2.22 9 6.27 9 4.7 0 8.82-5.85 13-12.28.14-.21.26-.29.35-.29s.16.09.16.24a.6.6 0 0 1 0 .13 23.4 23.4 0 0 0-.33 3.81c0 8 5 10.9 8.17 10.9 1.47 0 2.54-.61 2.54-1.61s-.41-1.33-1.32-1.58zm-19.2-7c-.41 0-.74-.33-.74-1.32 0-5.69 10.22-28.51 17.06-28.51a4.88 4.88 0 0 1 3.62 2.16.65.65 0 0 1 .08.66c-5.35 9.13-17.13 27.01-20.02 27.01zM278.55 18.16c0 1.24 1.9 3.3 3.87 3.3 4.37 0 15.16-5 15.16-7.74 0-2.23-2.88-5.36-4.28-5.36a1.43 1.43 0 0 0-1.15.41c-3.22 3.23-10.22 7.23-12.53 8.16a1.46 1.46 0 0 0-1.07 1.23z">
+			</path>
+			<path d="M351.8 54.17c-6.1 0-19.78 9.15-23.07 9.15-.49 0-.82-.25-.82-1 0-3.63 9.15-17.55 12-22.33a7.92 7.92 0 0 0 1.4-4.2c0-4.12-5.52-6.43-10.47-8.07-.27-.05-.39-.17-.39-.34a.6.6 0 0 1 .14-.32c1.65-2.72 2.22-4.7 2.22-6.1a2.28 2.28 0 0 0-2.47-2.56c-3.13 0-8 3.63-8 9.23a4.24 4.24 0 0 0 .49 2.22 1 1 0 0 1 .06.35 1 1 0 0 1-.06.31c-3.38 6.75-5.47 10.47-7.15 13.34a99.54 99.54 0 0 1-6.08 8.66c-5 6.34-10.88 10.14-14.58 10.14-3 0-3.79-2.31-3.79-4.61a23 23 0 0 1 1.4-6.92.41.41 0 0 1 .46-.33 16.45 16.45 0 0 0 2.62.28c8.37 0 18.09-8.77 18.09-17.06 0-5.45-5.22-8.85-9.31-8.85-7 0-14.86 9.79-19.08 19.73-4.25 7-10.53 16.77-12.68 16.77-.58 0-.82-.5-.82-1.24 0-5.27 11-25.21 13.18-27.77a2.32 2.32 0 0 0 .58-1.57c0-2.14-4.2-5.36-6.76-5.36a1.85 1.85 0 0 0-1.73 1c-.62 1.24-4.32 8.41-7.9 16-6.27 10.09-13.91 19.78-18.61 19.78-1.67 0-2.22-1.24-2.22-2.88a19 19 0 0 1 1.32-5.86 2.92 2.92 0 0 1 .66-1c10.05-8.65 29-35.18 29-45.24a6.41 6.41 0 0 0-6.1-6.59c-8.7 0-22.38 23.42-29.18 41.63a100.92 100.92 0 0 1-6.87 10c-5 6.34-10.88 10.14-14.58 10.14-3 0-3.79-2.31-3.79-4.61a23 23 0 0 1 1.4-6.92.41.41 0 0 1 .46-.33 16.45 16.45 0 0 0 2.62.28c8.37 0 18.09-8.77 18.09-17.06 0-5.45-5.22-8.85-9.31-8.85-7.12 0-15.13 10.13-19.3 20.25-5.31 8.24-11.43 16.25-14.81 16.25-1.07 0-1.4-1-1.4-1.73 0-3.49 6.32-17 12.23-27.89a.62.62 0 0 1 .59-.36c1.28 0 3-.1 3.58-.18 3-.4 5.42-2.45 5.42-3.85 0-.6-.44-1.08-1.46-1.26-.49-.09-2.3-.18-4.12-.26-.28 0-.44-.14-.43-.35a.6.6 0 0 1 .09-.28 69.24 69.24 0 0 1 5.08-8.1 1.58 1.58 0 0 0 .42-1.12c0-2.2-2.92-5.54-5.48-5.54a2.33 2.33 0 0 0-2.06 1.15c-.54.85-4 6.47-8 13.75a.63.63 0 0 1-.59.36 37.93 37.93 0 0 0-5.86.48 1.16 1.16 0 0 0-1 1.21c0 1.3 1.52 3.2 3.74 3.61.27 0 .41.18.4.37a.6.6 0 0 1-.08.24c-5.66 10.67-11.29 22.8-11.29 28.85 0 5.36 3.54 8.57 7.33 8.57 4.88 0 10.33-5.68 14.91-12v.32c0 7.19 4.4 11.71 10.39 11.71 7.63 0 15-6.93 20-13.94a23.39 23.39 0 0 0-.39 3.89c0 5.6 3.87 10.05 8.07 10.05 5 0 10.41-4.82 14.95-10.47a16.36 16.36 0 0 0-.22 2.56c0 4.37 2.72 7.91 6.26 7.91 3.93 0 8.88-5.71 13.23-12.13v.42c0 7.19 4.4 11.71 10.39 11.71 8.4 0 16.48-8.4 21.51-16.07 1.39-2.1 2.81-4.4 3.92-6.36 0 0 .06 0 .07-.07 1.15-1.9 3.54-5.93 8.16-14.34a.77.77 0 0 1 .66-.49c1.32 0 4.61.33 4.61 2.31 0 4.37-12.36 18.46-12.36 27.11 0 5.85 5.77 7.91 8.82 7.91 5.27 0 17.22-5.85 23.4-5.85 4.86 0 3.54 3.71 5.36 3.71 1.15 0 1.81-1.57 1.81-3.63 0-3.95-2.22-9.47-6.92-9.47zM295 45.6c3.71-7.41 9.06-14.34 11.95-14.34.63 0 .9.44.9 1.17 0 3.59-6.75 14.24-12 14.24-.76 0-1-.28-1-.58a1.18 1.18 0 0 1 .15-.49zm-42-2.14C259.78 26.49 271.32 7 274.45 7c.41 0 .66.41.66 1 0 4.45-10.88 23.57-21.18 35.76a1.11 1.11 0 0 1-.75.5c-.17 0-.29-.12-.29-.34a1.22 1.22 0 0 1 .11-.46zm-30.34 2.14c3.71-7.41 9.06-14.34 11.95-14.34.63 0 .9.44.9 1.17 0 3.59-6.75 14.24-12 14.24-.76 0-1-.28-1-.58a1.18 1.18 0 0 1 .15-.49z">
+			</path>
+		</symbol> -->
+	</svg>
+
+	<div class="page page__homepage page__pagets__homepage">
+		<header class="page-header">
+			<div class="ph-container">
+				<div class="ph-row-1">
+					<div class="ph-nav-lang language-navigation">
+						<!--DIVISOR DEL IDIOMA  -->
+					</div>
+					<div class="ph-nav-toggler nav-toggler">
+						<a class="nt-toggle" onclick="mostrar()">
+							<svg class="svg icon-burger-nav">
+								<use xlink:href="#icon-burger-nav"></use>
+							</svg>
+							<svg class="svg icon-menu">
+								<use xlink:href="#icon-menu"></use>
+							</svg>
+						</a>
+					</div>
+				</div>
+				<div class="ph-row-2">
+					<a class="ph-logo" href="index.htm">
+						<img src="img/logo.png" alt="Logo" class="ph-logo-splash">
+						<svg class="svg icon-logo">
+							<use xlink:href="#icon-logo"></use>
+						</svg>
+					</a>
+				</div>
+
+				<div id="menu" class="ph-menu main-navigation" onclick="ocultar()">
+					<ul class="l-1" >
+						<li class="uid-54 pid-1">
+							<a href="index.htm" title="Home">
+								<span>Home</span>
+							</a>
+						</li>
+						<li class="uid-55 pid-1">
+							<a href="" title="Das Atelier">
+								<span>Das Atelier</span>
+							</a>
+						</li>
+						<li class="uid-53 pid-1">
+							<a href="" title="Dotwork">
+								<span>Dotwork</span>
+							</a>
+						</li>
+						<li class="uid-52 pid-1">
+							<a href="" title="Watercolor">
+								<span>Watercolor</span>
+							</a>
+						</li>
+						<li class="uid-61 pid-1">
+							<a href="" title="Termine">
+								<span>Termine</span>
+							</a>
+						</li>
+						<li class="uid-62 pid-1">
+							<a href="" title="Wishlist">
+								<span>Wishlist</span>
+							</a>
+						</li>
+						<li class="uid-63 pid-1">
+							<a href="" title="Pflegehinweise">
+								<span>Pflegehinweise</span>
+							</a>
+						</li>
+					</ul>
+				</div>
+			</div>
+	</header>
+
+	<div id="banner" role="banner">
+		<!-- <div id="c349" class="frame frame-default frame-type-mask_parallax frame-layout-0">
+			<div class="parallax-window" data-image-src="img/csm_0CH13964-HDR_0c846e0763.jpg" data-parallax="scroll" data-speed="0.3">
+				<div class="pw-text">
+					<h1 class="pw-title">
+						<img class="lazy pw-image" data-src="img/csm_Bild_Kategorie_Startseite_pflege_DE_a17d9a2ef4.png"
+						sizes="(max-width: 768px) 50vw, 400px" src="img/csm_Bild_Kategorie_Startseite_pflege_DE_a17d9a2ef4.png">
+					</h1>
+				</div>
+			</div>
+		</div> -->
+	</div>
+
+	<div class="page-content">
+		<div class="grid show">
+			<a class="g-item g-item-link g-color- g-link-1" title="PRUEBA" href="">
+				<h1 class="g-title" title="PRUEBA">
+					<img class="lazy" data-src="img/csm_Bild_Kategorie_Startseite_Atelier_78eee62860.png"
+						sizes="(max-width: 768px) 100vw, (max-width: 768px) 50vw, (max-width: 1300px) 33vw, 420px" alt="PRUEBA" title="PRUEBA"
+						src="img/csm_Bild_Kategorie_Startseite_Atelier_78eee62860.png">
+				</h1>
+				<img class="lazy g-image" data-src="img/csm_Bild_Kategorie_Startseite_Atelier_HG_aa0655bbf6.jpg"
+					sizes="(max-width: 600px) 100vw, (max-width: 768px) 50vw, (max-width: 1300px) 33vw, 420px" alt="Das Linzer Tattooatelier" title="Das Linzer Tattooatelier"
+					src="img/csm_Bild_Kategorie_Startseite_Atelier_HG_aa0655bbf6.jpg">
+			</a>
+			<a class="g-item g-item-link g-color- g-link-2" title="Dotwork by Eva Schmidinger" href="">
+				<h2 class="g-title" title="Dotwork by Eva Schmidinger">
+					<img class="lazy" data-src="img/csm_Bild_Kategorie_Startseite_Dotwork_1146b4b510.png"
+						sizes="(max-width: 768px) 100vw, (max-width: 768px) 50vw, (max-width: 1300px) 33vw, 420px" alt="Dotwork Tattoos by Eva Schmidinger" title=""
+						src="img/csm_Bild_Kategorie_Startseite_Dotwork_1146b4b510.png">
+				</h2>
+				<img class="lazy g-image" data-src="img/csm_Bild_Kategorie_Startseite_Dotwork_HG_51df390595.jpg"
+					sizes="(max-width: 600px) 100vw, (max-width: 768px) 50vw, (max-width: 1300px) 33vw, 420px" alt="Dotwork Tattoos by Eva Schmidinger" title=""
+					src="img/csm_Bild_Kategorie_Startseite_Dotwork_HG_51df390595.jpg">
+			</a>
+			<a class="g-item g-item-link g-color- g-link-3" title="Watercolor by Jules Boho" href="">
+				<h2 class="g-title" title="Watercolor by Jules Boho">
+					<img class="lazy" data-src="img/csm_Bild_Kategorie_Startseite_Master_840x840_3a23ad8273.png"
+						sizes="(max-width: 768px) 100vw, (max-width: 768px) 50vw, (max-width: 1300px) 33vw, 420px" alt="Watercolortattoos by Jules Boho" title=""
+						src="img/csm_Bild_Kategorie_Startseite_Master_840x840_3a23ad8273.png">
+				</h2>
+				<img class="lazy g-image" data-src="img/csm_Bild_Kategorie_Startseite_Watercolor_HG_7b7f3546f9.jpg"
+					sizes="(max-width: 600px) 100vw, (max-width: 768px) 50vw, (max-width: 1300px) 33vw, 420px" alt="Watercolortattoos by Jules Boho" title=""
+					src="img/csm_Bild_Kategorie_Startseite_Watercolor_HG_7b7f3546f9.jpg">
+			</a>
+			<a class="g-item g-item-link g-color- g-link-4" title="Wishlist" href="">
+				<h2 class="g-title" title="Wishlist">
+					<img class="lazy" data-src="img/csm_Bild_Kategorie_Startseite_Wishlist_6767879877.png"
+						sizes="(max-width: 768px) 100vw, (max-width: 768px) 50vw, (max-width: 1300px) 33vw, 420px" alt="Wishlist" title=""
+						src="img/csm_Bild_Kategorie_Startseite_Wishlist_6767879877.png">
+				</h2>
+				<img class="lazy g-image" data-src="img/csm_Bild_Kategorie_Startseite_Wislist_HG_4240f5c496.jpg"
+					sizes="(max-width: 600px) 100vw, (max-width: 768px) 50vw, (max-width: 1300px) 33vw, 420px" alt="Wishlist" title=""
+					src="img/csm_Bild_Kategorie_Startseite_Wislist_HG_4240f5c496.jpg">
+			</a>
+			<a class="g-item g-item-link g-color- g-link-5" title="Termine" href="">
+				<h2 class="g-title" title="Termine">
+					<img class="lazy" data-src="img/csm_Bild_Kategorie_Startseite_Termine_DE_691b63830d.png"
+						sizes="(max-width: 768px) 100vw, (max-width: 768px) 50vw, (max-width: 1300px) 33vw, 420px" alt="Termine im Linzer Tattooatelier" title=""
+						src="img/csm_Bild_Kategorie_Startseite_Termine_DE_691b63830d.png">
+				</h2>
+				<img class="lazy g-image" data-src="img/Bild_Kategorie_Startseite_Termine_HG.jpg"
+					sizes="(max-width: 600px) 100vw, (max-width: 768px) 50vw, (max-width: 1300px) 33vw, 420px" alt="Termine im Linzer Tattooatelier" title=""
+					src="img/Bild_Kategorie_Startseite_Termine_HG.jpg">
+			</a>
+			<a class="g-item g-item-link g-color- g-link-6" title="Pflegehinweise" href="">
+				<h2 class="g-title" title="Pflegehinweise">
+					<img class="lazy" data-src="img/csm_Bild_Kategorie_Startseite_pflege_DE_eeac1a8f67.png"
+						sizes="(max-width: 768px) 100vw, (max-width: 768px) 50vw, (max-width: 1300px) 33vw, 420px" alt="Pflegehinweise" title=""
+						src="img/csm_Bild_Kategorie_Startseite_pflege_DE_eeac1a8f67.png">
+				</h2>
+				<img class="lazy g-image" data-src="img/Bild_Kategorie_Startseite_Pflege_HG.jpg"
+						sizes="(max-width: 600px) 100vw, (max-width: 768px) 50vw, (max-width: 1300px) 33vw, 420px" alt="Pflegehinweise" title=""
+						src="img/Bild_Kategorie_Startseite_Pflege_HG.jpg">
+			</a>
+			<a href="img/csm_fix1_6b1e7c4cfc.jpg" class="g-item g-image-1" data-fancybox="images">
+				<img class="lazy g-image" data-src="img/csm_fix1_6b1e7c4cfc.jpg" data-caption=""
+					sizes="(max-width: 768px) 100vw, (max-width: 768px) 50vw, (max-width: 1300px) 33vw, 420px" alt="" title=""
+					src="img/csm_fix1_6b1e7c4cfc.jpg">
+			</a>
+			<a href="img/csm_fix3_fef6cad62b.jpg" class="g-item g-image-2" data-fancybox="images">
+				<img class="lazy g-image" data-src="img/csm_fix3_fef6cad62b.jpg" data-caption=""
+					sizes="(max-width: 768px) 100vw, (max-width: 768px) 50vw, (max-width: 1300px) 33vw, 420px" alt="Jules Boho" title=""
+					src="img/csm_fix3_fef6cad62b.jpg">
+			</a>
+			<a href="img/csm_fix2_0f9a45c612.jpg" class="g-item g-image-3" data-fancybox="images">
+				<img class="lazy g-image" data-src="img/csm_fix2_0f9a45c612.jpg" data-caption=""
+					sizes="(max-width: 768px) 100vw, (max-width: 768px) 50vw, (max-width: 1300px) 33vw, 420px" alt="Eva Schmidinger" title=""
+					src="img/csm_fix2_0f9a45c612.jpg">
+			</a>
+			<a href="img/csm_fix4_e12f3130ce.jpg" class="g-item g-image-4" data-fancybox="images">
+				<img class="lazy g-image" data-src="img/csm_fix4_e12f3130ce.jpg" data-caption=""
+					sizes="(max-width: 768px) 100vw, (max-width: 768px) 50vw, (max-width: 1300px) 33vw, 420px" alt="Das Linzer Tattooatelier" title=""
+					src="img/csm_fix4_e12f3130ce.jpg">
+			</a>
+			<a href="img/csm_fix5_9054fb7bec.jpg" class="g-item g-image-5" data-fancybox="images">
+				<img class="lazy g-image" data-src="img/csm_fix5_9054fb7bec.jpg" data-caption=""
+					sizes="(max-width: 768px) 100vw, (max-width: 768px) 50vw, (max-width: 1300px) 33vw, 420px" alt="Das Linzer Tattooatelier" title=""
+					src="img/csm_fix5_9054fb7bec.jpg">
+			</a>
+			<a href="img/csm_fix6_b014902c9c.jpg" class="g-item g-image-6" data-fancybox="images">
+				<img class="lazy g-image" data-src="img/csm_fix6_b014902c9c.jpg" data-caption=""
+					sizes="(max-width: 768px) 100vw, (max-width: 768px) 50vw, (max-width: 1300px) 33vw, 420px" alt="Eva Schmidinger &amp; Jules Boho" title=""
+					src="img/csm_fix6_b014902c9c.jpg">
+			</a>
+			<a href="img/csm_fix7_8f3ad8982a.jpg" class="g-item g-image-7" data-fancybox="images">
+				<img class="lazy g-image" data-src="img/csm_fix7_8f3ad8982a.jpg" data-caption=""
+					sizes="(max-width: 768px) 100vw, (max-width: 768px) 50vw, (max-width: 1300px) 33vw, 420px" alt="Das Linzer Tattooatelier" title=""
+					src="img/csm_fix7_8f3ad8982a.jpg">
+			</a>
+			<a href="img/csm_fix8_1f059e9237.jpg" class="g-item g-image-8" data-fancybox="images">
+				<img class="lazy g-image" data-src="img/csm_fix8_1f059e9237.jpg" data-caption=""
+					sizes="(max-width: 768px) 100vw, (max-width: 768px) 50vw, (max-width: 1300px) 33vw, 420px" alt="Das Linzer Tattooatelier" title=""
+					src="img/csm_fix8_1f059e9237.jpg">
+			</a>
+			<a class="g-item g-image-ig-0" data-fancybox="images" href="img/40108674_122978705318404_2759596801629060240_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/40108674_122978705318404_2759596801629060240_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-1" data-fancybox="images" href="img/42189648_110914283143849_8505062678623341849_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/42189648_110914283143849_8505062678623341849_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-2" data-fancybox="images" href="img/42986982_176408596572985_8563504255328857499_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/42986982_176408596572985_8563504255328857499_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-3" data-fancybox="images" href="img/43191804_751484038520237_3255401385222326059_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/43191804_751484038520237_3255401385222326059_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-4" data-fancybox="images" href="img/43571972_552157928539335_1279626950057854062_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/43571972_552157928539335_1279626950057854062_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-5" data-fancybox="images" href="img/44296651_567637270337259_8582312426216008619_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/44296651_567637270337259_8582312426216008619_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-6" data-fancybox="images" href="img/40772557_281159736071588_3516545502093412241_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/40772557_281159736071588_3516545502093412241_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-7" data-fancybox="images" href="img/39226065_312909899465892_6147171882270457856_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/39226065_312909899465892_6147171882270457856_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-8" data-fancybox="images" href="img/41523344_1910294202385469_5134609401291494210_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/41523344_1910294202385469_5134609401291494210_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-9" data-fancybox="images" href="img/41966148_1141342189349843_3864858853265562449_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/41966148_1141342189349843_3864858853265562449_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-10" data-fancybox="images" href="img/39024071_234285980596552_7104937520420356096_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/39024071_234285980596552_7104937520420356096_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-11" data-fancybox="images" href="img/40784489_349168725626264_1248542732722151216_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/40784489_349168725626264_1248542732722151216_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-12" data-fancybox="images" href="img/43146212_298445644310160_8830701727879876727_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/43146212_298445644310160_8830701727879876727_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-13" data-fancybox="images" href="img/42951692_244040202942136_4403530877803677923_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/42951692_244040202942136_4403530877803677923_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-14" data-fancybox="images" href="img/42630211_484278075411944_8688353305218011753_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/42630211_484278075411944_8688353305218011753_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-15" data-fancybox="images" href="img/43061937_1898590980216907_5065762893464781487_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/43061937_1898590980216907_5065762893464781487_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-16" data-fancybox="images" href="img/35999790_1046103468887847_550732364897058816_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/35999790_1046103468887847_550732364897058816_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-17" data-fancybox="images" href="img/40790012_283736468901132_739523916819679553_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/40790012_283736468901132_739523916819679553_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-18" data-fancybox="images" href="img/41673098_596496634103510_6436772090454098945_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/41673098_596496634103510_6436772090454098945_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-19" data-fancybox="images" href="img/43985777_755289911474577_1012471931174529067_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/43985777_755289911474577_1012471931174529067_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-20" data-fancybox="images" href="img/35928063_473707389750778_4706658912256917504_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/35928063_473707389750778_4706658912256917504_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-21" data-fancybox="images" href="img/39508169_1933746593585809_2266222847835591225_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/39508169_1933746593585809_2266222847835591225_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-22" data-fancybox="images" href="img/42120182_259422811426410_3849549829927644355_n.jpg" data-caption="">
+				<img alt="Linzer Tattooatelier auf Instagram" src="img/42120182_259422811426410_3849549829927644355_n.jpg" class="g-image">
+			</a>
+			<a class="g-item g-image-ig-22" data-fancybox="images" href="img/41535306_1116583945167552_4036649417990328474_n.jpg" data-caption="">
+			<img alt="Linzer Tattooatelier auf Instagram" src="img/41535306_1116583945167552_4036649417990328474_n.jpg" class="g-image">
+			</a>
+		</div>
+
+		<footer class="page-footer">
+			<div class="pf-dash"></div>
+			<div class="pf-content">
+				<nav class="footer-navigation">
+					<ul class="l-1">
+						<li class="uid-65 pid-64">
+							<a href="" title="Direccion">
+								<span>Direccion</span>
+							</a>
+						</li>
+						<li class="uid-71 pid-64">
+							<a href="politica.htm" title="Política de privacidad">
+								<span>Política de privacidad</span>
+							</a>
+						</li>
+						<li class="uid-66 pid-64">
+							<a href="" target="_blank" title="Facebook" rel="noopener">
+								<span>Facebook</span>
+							</a>
+						</li>
+					</ul>
+				</nav>
+				<div class="agency">
+					<a href="" rel="noopener" target="_blank" title="">
+						<svg class="svg icon-pixelatelier">
+							<use xlink:href="#icon-pixelatelier"></use>
+						</svg>
+					</a>
+				</div>
+			</div>
+		</footer>
+	</div>
+
+	<!-- <div id="cookies" style="display: block;">
+		<div class="container">
+			<div class="row">
+				<p>La protección de sus datos personales es muy importante para nosotros.
+					<a href="politica.htm">A la política de privacidad</a>
+				</p>
+				<a class="close" onclick="cerrar()">He leído la política de privacidad</a>
+			</div>
+		</div>
+	</div> -->
+</body>
+</html>
